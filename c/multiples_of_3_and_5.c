@@ -5,11 +5,11 @@ void main(){
 	int number = 1;
 	for(number;number<1000;number++){
 	int divisibleByThree = checkDivisibilityBy3(number);
-	printf("Divisible By 3: %d \n",divisibleByThree);
+	//printf("Divisible By 3: %d \n",divisibleByThree);
 	totalSum += divisibleByThree;
 	if(divisibleByThree != checkDivisibilityBy5(number)){
 	int divisibleByFive = checkDivisibilityBy5(number);
-	printf("Divisible By 5: %d \n",divisibleByFive);
+	//printf("Divisible By 5: %d \n",divisibleByFive);
 	totalSum += divisibleByFive;
 	}
 }
